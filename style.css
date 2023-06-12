@@ -1,0 +1,117 @@
+
+:root{
+  /* --primary-color:#DE369D; */
+  /* --primary-color:#8EB1C7; */
+  /* --primary-color:#06d6a0; */
+  /* --primary-color:#368f8b; */
+  --primary-color:#3c6e71;
+  /* --secondary-color:#6F5E76; */
+/* --secondary-color:#C1BFB5; */
+/* --secondary-color:#6F7D8C; */
+/* --secondary-color:#118ab2; */
+/* --secondary-color:#619b8a; */
+--secondary-color:#7e8287;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  
+  .bg-1 { 
+    /* background-color: #1abc9c;*/ /*Green */
+    background-color:var(--primary-color);
+    color: #ffffff;
+  }
+  .bg-2 { 
+    /* background-color: #474e5d; Dark Blue */
+    background-color: var(--secondary-color);
+    color: #ffffff;
+  }
+
+  .image{
+    display: inline-block;
+    max-width: 30%;
+    height: auto;
+    text-align: center;
+    margin-top:50px ;
+}
+  
+
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    /* background-color: #2f2f2f; Black Gray */
+    /* background-color: #77A0A9; */
+    /* background-color:#073b4c; */
+    background-color:#14281d;
+    color: #fff;
+  }
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 70px;
+    padding-bottom:50px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+
+  .align-item-center li a{
+    text-align: center;
+  }
+
+  .btn-color{
+    /* background-color: #1abc9c !important; */
+    background-color:  var(--primary-color) !important;
+    color: #fff !important;
+    
+  }
+  
+  .btn-color:hover{
+    background-color: #fff !important;
+    /* color:#1abc9c !important; */
+    color:  var(--primary-color) !important;
+  }
+
+  .web{
+    font-weight: bolder;
+  }
+
+  .highlight{
+    /* color:#1abc9c !important; */
+    color:#3c6e71!important;
+    font-weight: bold;
+ }
+
+.icons{
+  margin: 5px 5px 25px
+}
+
+.copyright{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+
+
+
+
